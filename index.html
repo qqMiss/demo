@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人网站</title>
+    <link rel='stylesheet' href='./swiper/swiper.min.css'>
+    <style>
+        body,html{
+            position: relative;
+            height: 100%;
+        }
+        body {
+      background: rgb(128, 39, 39);
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+        .swiper-container{
+          width: 100%;
+          height: 100%;
+        }
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .one{
+          background-color: antiquewhite;
+        }
+        .two{
+          background-color:aqua;
+        }
+        .three{
+          background-color:blue
+        }
+        .four{
+          background-color:chocolate
+        }
+        .five{
+          background-color:cornflowerblue
+        }
+    </style>
+</head>
+<body>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide one">
+              <img src=''>
+          </div>
+          <div class="swiper-slide two">
+            <img src=''>
+          </div>
+          <div class="swiper-slide three">
+            <img src=''>
+          </div>
+          <div class="swiper-slide four">
+            <img src=''>
+          </div>
+          <div class="swiper-slide five">
+            <img src=''>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <script src='./swiper/swiper.min.js'></script>
+      <script>
+        var swiper = new Swiper('.swiper-container',{
+          direction: 'vertical',
+          pagination:{
+            el:'.swiper-pagination',
+          clickable: true,
+          }
+          
+
+
+        })
+      </script>
+</body>
+</html>
