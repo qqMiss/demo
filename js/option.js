@@ -8,11 +8,11 @@ option = {
     legend: {
         orient: 'vertical',
         left: 10,
-        data: ['直接访问', '邮件营销', '联盟广告', '视频广告', '搜索引擎']
+        data: ['Js', 'Jquery', 'Css', 'Html', 'Vue','...']
     },
     series: [
         {
-            name: '访问来源',
+            name: '掌握程度',
             type: 'pie',
             radius: ['50%', '70%'],
             avoidLabelOverlap: false,
@@ -23,19 +23,20 @@ option = {
             emphasis: {
                 label: {
                     show: true,
-                    fontSize: '30',
+                    fontSize: '50',
                     fontWeight: 'bold'
                 }
             },
             labelLine: {
-                show: false
+                show: true
             },
             data: [
-                {value: 335, name: '直接访问'},
-                {value: 310, name: '邮件营销'},
-                {value: 234, name: '联盟广告'},
-                {value: 135, name: '视频广告'},
-                {value: 1548, name: '搜索引擎'}
+                {value: 335, name: 'Js'},
+                {value: 310, name: 'Jquery'},
+                {value: 234, name: 'Css'},
+                {value: 135, name: 'Html'},
+                {value: 1548, name: 'Vue'},
+                {value: 3000, name: '...'}
             ]
         }
     ]
