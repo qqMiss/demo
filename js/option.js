@@ -14,7 +14,7 @@ option = {
         {
             name: '掌握程度',
             type: 'pie',
-            radius: ['50%', '70%'],
+            radius: ['35%', '80%'],
             avoidLabelOverlap: false,
             label: {
                 show: false,
@@ -23,8 +23,8 @@ option = {
             emphasis: {
                 label: {
                     show: true,
-                    fontSize: '50',
-                    fontWeight: 'bold'
+                    fontSize: '70',
+                    fontWeight: 'bolder'
                 }
             },
             labelLine: {
